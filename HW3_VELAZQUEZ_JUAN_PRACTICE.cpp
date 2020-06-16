@@ -2,22 +2,22 @@
 	Name: Juan David Velazquez
 	Description: hw 3
 */
- // -1-
-//#include<stdio.h>
-//bool check(int x, int y, int n); // we assume that they are int 
-//int main ()
-//{	
-//	int var1, var2, var3;
-//	printf("Enter superior limit first, then 'x' and 'y' values: ");
-//	scanf("%d%d%d",&var1, &var2, &var3);// the user need to enter the values between '-' 
-//	(check(var3, var2, var1) ? printf("the values are in range") : printf("the values are not in range")) ;// an if where we inform to the user the state of the values
-//	return 0;
-//}
-//bool check(int x, int y, int n)
-//{
-//	if(x >= 0 && x < n && y >= 0 && y < n) return true; // if are in range return 1
-//	else return false;// if are not in range return 0
-//}
+ -1-
+#include<stdio.h>
+bool check(int x, int y, int n); // we assume that they are int 
+int main ()
+{	
+	int var1, var2, var3;
+	printf("Enter superior limit first, then 'x' and 'y' values: ");
+	scanf("%d%d%d",&var1, &var2, &var3);// the user need to enter the values between '-' 
+	(check(var3, var2, var1) ? printf("the values are in range") : printf("the values are not in range")) ;// an if where we inform to the user the state of the values
+	return 0;
+}
+bool check(int x, int y, int n)
+{
+	if(x >= 0 && x < n && y >= 0 && y < n) return true; // if are in range return 1
+	else return false;// if are not in range return 0
+}
 
 
 // -2-

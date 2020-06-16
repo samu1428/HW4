@@ -1,5 +1,5 @@
 /*
-	Name: Juan David Velazquez
+	Name: Juan David Velazquez, Hector Velazquez
 	Description: hw 3
 */
  -1-

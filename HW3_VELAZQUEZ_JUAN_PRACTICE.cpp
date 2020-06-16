@@ -119,6 +119,7 @@ so the first impresion is the result of  1%2 and so on:
 -------------
 
 is how we see in the screen*/
+printf('hola Juan');
 
 
 
